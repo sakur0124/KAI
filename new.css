@@ -1,0 +1,114 @@
+
+body{
+    background: url("http://free-paper-texture.com/p/p0526/p0526_m.jpg");
+}
+
+.topImg{
+    background: url("https://www.pakutaso.com/shared/img/thumb/gori0I9A3053072102529_TP_V.jpg")no-repeat;
+    background-size: cover;
+    height: 300px;
+ 
+}
+
+
+h1{
+    text-shadow: 1px 1px 2px rgba(0,0,0,.4);   
+}
+
+
+
+.box{
+
+    width: 200px;
+    height:200px;
+    background-color:white;
+    margin-bottom: 20px;
+    border: 2px solid gray;
+}
+
+.box:hover{
+
+    border: 3px solid brown;
+    
+}
+
+
+.flex{
+
+ width: 850px;
+ display: flex; 
+ flex-wrap: wrap;
+ justify-content: space-between;
+ text-align: center;
+ margin: 0 auto;
+}
+
+
+#xmas{
+    background: url("xmas.jpg") no-repeat center;
+    background-size: cover;
+}
+
+#business{
+    background: url("business.jpg") no-repeat center;
+    background-size: cover;
+}
+
+#para{
+    background: url("para.jpg") no-repeat center;
+    background-size: cover;
+}
+
+#gallery{
+    background: url("gallery.jpg") no-repeat center;
+    background-size: cover;
+}
+
+
+#hotel{
+    background: url("hotel.jpg") no-repeat center;
+    background-size: cover;
+}
+
+#cat01{
+    background: url("cat01.png") no-repeat center;
+    background-size: cover;
+}
+
+#recuit{
+    background: url("recuit.png") no-repeat center;
+    background-size: cover;
+}
+
+#clinic{
+    background: url("clinic.png") no-repeat center;
+    background-size: cover;
+}
+
+#theater{
+    background: url("cinema.png") no-repeat center;
+    background-size: cover;
+}
+
+
+#hudonsan{
+    background: url("hudonsan.png") no-repeat center;
+    background-size: cover;
+}
+
+
+#isara{
+    background: url("isara.png") no-repeat center;
+    background-size: cover;
+}
+
+
+#blog{
+    background: url("blog.png") no-repeat center;
+    background-size: cover;
+}
+
+#airbnb{
+    background: url("airbnb.png") no-repeat center;
+    background-size: cover;
+}

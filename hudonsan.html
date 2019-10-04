@@ -1,0 +1,328 @@
+﻿<!--
+参考：https://kokilog.jp/jquery-fadein01/
+参考：https://imasashi.net/element-fadein.html
+
+-->
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1"
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <script  src="http://code.jquery.com/jquery-3.4.1.js"  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="  crossorigin="anonymous"></script> 
+   
+   <link rel="stylesheet" href="hudonsan.css" type="text/css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+   <script  src="http://code.jquery.com/jquery-3.4.1.js"  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="  crossorigin="anonymous"></script>
+   
+  </head>
+  
+<body>
+
+  <header>
+    <h1>東急リバブル</h1>
+  </header>
+  
+  <div id="top">
+    <div class="box">
+   
+   
+    <!--
+      <p><h4>大切な不動産、売るか売らないか</h4>
+      今いくらか<br>聞いてから<br>考えよう!<br>
+      <div class="tag">入力は簡単
+          <span>60秒</span>
+      </div>
+      
+      <div class="tag">
+      査定無料
+      </div>
+    
+    
+    --> 
+    <img src="https://www.livable.co.jp/images/baikyaku-lp_pc/index_ti01.png">
+    </div>
+    
+    
+    
+    
+     <div class="box">
+       <h2>STEP 1</h2>
+       <form method="post">
+         <div class="serch" id="serch01"><span>物件種別</span>
+           <select id="01">
+              <option value="0">選択してください</option>  
+              <option value="1">a</option>  
+              <option value="1">b</option>  
+              <option value="1">c</option>  
+              <option value="1">d</option>  
+              <option value="1">e</option>  
+           </select>
+          <div class="circle" id="circle_01">OK</div>
+         </div>
+         
+         <h2>STEP 1</h2>
+         <div  class="serch"><span>都道府県</span>
+           <select id="02">
+              <option value="0">選択してください</option>  
+              <option value="1">a</option>  
+              <option value="1">b</option>  
+              <option value="1">c</option>  
+              <option value="1">d</option>  
+              <option value="1">e</option>  
+           </select>
+          <div class="circle" id="circle_02">OK</div>
+         </div>
+         
+         <div  class="serch"><span>市区町村</span>
+          <select id="03">
+     　        <option value="0">選択してください</option>  
+              <option value="1">a</option>  
+              <option value="1">b</option>  
+              <option value="1">c</option>  
+              <option value="1">d</option>  
+              <option value="1">e</option>  
+           </select>
+           <div class="circle" id="circle_03">OK</div>
+         </div>
+         
+         
+         <div  class="serch"><span>町名</span>
+           <select id="04">
+              <option value="0">選択してください</option>  
+              <option value="1">a</option>  
+              <option value="1">b</option>  
+              <option value="1">c</option>  
+              <option value="1">d</option>  
+              <option value="1">e</option>   
+           </select>
+           <div class="circle" id="circle_04">OK</div>
+         
+         </div>
+         
+         <div  class="serch"><span>丁目</span> 
+           <select id="05">
+              <option value="0">選択してください</option>  
+              <option value="1">a</option>  
+              <option value="1">b</option>  
+              <option value="1">c</option>  
+              <option value="1">d</option>  
+              <option value="1">e</option>  
+           </select>
+            <div class="circle" id="circle_05">OK</div>
+         </div>
+         
+         
+       </form>
+       
+     </div>
+  </div>
+  
+  
+  <main>
+    <div id="page_01">
+      <ul class="title">
+        <li>選</li>
+        <li>ら</li>  
+        <li>ば</li>  
+        <li>れ</li>
+        <li>る</li>
+        <li>理</li>
+        <li>由</li>
+      </ul>
+    
+    
+     <dl>
+       <dt>1.</dt>
+       <dd>やっぱり安心<br><span>豊富な不動産取引実績</span></dd>
+     </dl>
+    
+    <div class="introduce">
+      <div class="introbox">
+        <img src="https://www.livable.co.jp/images/baikyaku-lp_pc/index_tx05.png">
+        <br> <br>
+        1日なら約70件、21分に1件の計算になります。 <br>
+        毎日の豊富な実績の積み重ねによるノウハウが私たちの武器です。
+      </div>
+      <img src="https://www.livable.co.jp/images/baikyaku-lp_pc/index_im03.png">
+    </div>
+  
+    
+    
+    
+    
+    </div>
+    
+    <div id="page_02">
+      
+       <dl>
+         <dt>2.</dt>
+         <dd>独自の多彩な販売チャネルで<br><span>早期売却を実現</span></dd>
+       </dl>
+    
+     <div class="introduce">
+      <div class="introbox">
+        
+       <span>幅広く膨大な購入希望者にアプローチしてマッチング！</span><br>
+       <br><br>
+        多彩なチャネルを通じて、幅広い不動産ご購入希望者様に、
+        お客様の物件をスピーディーにご紹介するため早期売却が期待できます。
+
+      </div>
+      <img src="https://www.livable.co.jp/images/baikyaku-lp_pc/index_im04.png">
+    </div>
+    
+    
+    </div>
+    
+    <div id="page_03">
+      
+      <dl>
+         <dt>3.</dt>
+         <dd>万一、売れなくても<br><span>リバブルが購入</span></dd>
+       </dl>
+    
+     <div class="introduce">
+        <div class="introbox">
+          
+         <span>いつ？いくらで売れる？不安を解消！</span><br>
+         <br><br>
+         期日内に売れない場合は、東急リバブルが買主となりお客様のご所有不動産を直接購入いたします。
+         （当社審査後）
+        </div>
+      <img src="https://www.livable.co.jp/images/baikyaku-lp_pc/index_im07.jpg">
+    </div>
+      
+      
+    </div>
+    
+      <div id="page_04">
+      
+      <dl>
+         <dt>4.</dt>
+         <dd>意外と多い売却後のトラブル<br>
+         <span>売却後の補修費用も保証</span></dd>
+       </dl>
+    
+     <div class="introduce　noflex">
+        <div class="introbox noflex_box">
+          
+           <span>「リバブルあんしん仲介保証」なら瑕疵対応費用をリバブルが保証！</span><br>
+          無料で建物・住宅設備検査を行い、補修費用を最長2年間、最大500万円まで保証します。
+        </div><br>
+      <img src="https://www.livable.co.jp/images/baikyaku-lp_pc/index_im08.png">
+    </div>
+      
+      
+    </div>
+    
+         <div id="page_05">
+      
+      <dl>
+         <dt>5.</dt>
+         <dd>不動産・税務に関する疑問・不安<br>
+         <span>プロがサポート</span></dd>
+       </dl>
+    
+     <div class="introduce">
+        <div class="introbox">
+          
+              <h5>営業マンの約97％が「宅地建物取引士」市況に合わせた価格や売り時をアドバイス</h5>
+              <img src="https://www.livable.co.jp/images/baikyaku-lp_pc/index_im11.jpg">
+          </div>　
+        
+           <div class="introbox">
+             <h5>不動産に関する税務や法律について専門家による無料相談会を実施！</h5>
+              <img src="https://www.livable.co.jp/images/baikyaku-lp_pc/index_im12.jpg">
+         </div>    
+    
+    </div>
+      
+      
+    </div>
+    
+    
+  </main>
+ 
+ 
+  <footer>
+   東急リバブルへの個人情報送信は、SSL暗号化通信にて安全に行っていただけます。
+  </footer>
+  <div id="down">
+    © TOKYU LIVABLE,INC.All Right Reserved.
+    <span></span>
+    美しい時代へ 東急グループ
+  </div>
+
+  <script>
+
+    $("#01").change(function(){
+      var val =$(this).val();
+      console.log(val);
+      if(val != 0){
+         $('#circle_01').css("background-color","#00CCFF");
+      }else{
+    $('#circle_01').css("background-color","gray");
+      }
+      
+    });
+    
+     $("#02").change(function(){
+      var val =$(this).val();
+      console.log(val);
+      if(val != 0){
+         $('#circle_02').css("background-color","#00CCFF");
+      }else{
+         $('#circle_02').css("background-color","gray");
+      }
+      
+    });
+    
+    
+     $("#03").change(function(){
+      var val =$(this).val();
+      console.log(val);
+      if(val != 0){
+         $('#circle_03').css("background-color","#00CCFF");
+      }else{
+    $('#circle_03').css("background-color","gray");
+      }
+      
+    });
+    
+    
+    
+     $("#04").change(function(){
+      var val =$(this).val();
+      console.log(val);
+      if(val != 0){
+         $('#circle_04').css("background-color","#00CCFF");
+      }else{
+    $('#circle_04').css("background-color","gray");
+      }
+      
+    });
+    
+    
+     $("#05").change(function(){
+      var val =$(this).val();
+      console.log(val);
+      if(val != 0){
+         $('#circle_05').css("background-color","#00CCFF");
+      }else{
+    $('#circle_05').css("background-color","gray");
+      }
+      
+    });
+    
+  </script>
+
+
+</body>
+
+
+
+
+</html>

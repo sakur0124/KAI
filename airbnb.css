@@ -1,0 +1,383 @@
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+body{
+  
+  padding: 0px;
+  margin: 0px;
+  
+}
+
+
+
+/*-------------------------------------------------------------------------------------------------
+				 reset
+--------------------------------------------------------------------------------------------------*/
+
+
+header{
+  
+  width: 100%;
+  height: 80px;
+  border: 1px solid black;
+}
+
+
+header h1{
+  float: left;
+  line-height: 80px;
+}
+
+header ul {
+  float: right;
+  margin-right: 10px;
+}
+
+header ul li{
+  float: left;
+  list-style: none;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+header ul li a{
+  color: black;
+}
+
+
+label img{
+
+  width: 40px;
+  height: 40px;
+  border: 2px solid #eee;
+  margin-left: 10px;
+  border-right: none;
+   border-radius: 5px 0px 0px 5px;
+   margin-top: 20px;
+  
+  
+}
+
+#serch{
+  width: 200px;
+  height: 40px;
+  border-left: none;
+  padding-left: 10px;
+  border: 2px solid #eee;
+  border-left:none;
+  margin-left: -10px;
+  border-radius: 0px 5px 5px 0px;
+  margin-top: 20px;
+  
+  
+}
+
+
+#inform{
+  position: fixed;
+  line-height: 40px;
+  font-size: 12px;
+  width: 100%;
+  height: 40px;
+  background-color: #99CCCC;
+}
+
+#inform p{
+ text-align: center;
+}
+
+#inform span{
+  float: right;
+  color:#009999;
+  font-size: 25px;
+  margin-right: 10px;
+  line-height: 15px;
+  cursor: pointer;
+}
+
+
+#topImg{
+  
+  width: 100%;
+  height: 500px;
+ /* background-color: pink; */
+ background: url("https://www.snopes.com/tachyon/2019/08/ss_travel.jpg?resize=865,452")no-repeat;
+ background-size: cover;
+}
+
+
+#topImg h1{
+  
+  display: inline-block;
+  font-weight: bold;
+
+}
+
+#container{
+  color: white;
+  box-sizing:border-box;
+  padding-top: 200px;
+  padding-left: 150px;
+}
+
+
+#topImg button{
+  width: 200px;
+  padding: 20px 20px;
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: gray;
+
+  
+}
+
+
+#intro{
+  display: flex;
+  width: 100%;
+  height: 400px;
+  border: 1px solid black;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+
+#intro h1{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+#intro #boxContainer{
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+  height: 200px;
+
+} 
+
+#intro .box{
+  width: 250px;
+  height: 250px;
+  border: 1px solid gray;
+  text-align: center;
+
+  
+}
+
+.box img{
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+
+}
+
+
+#giftcard{
+    width: 100%;
+   height: 400px;
+   background-color:  #009999;
+   color: white;
+   text-align: center;
+  
+}
+
+
+#giftcard img{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+#giftcard button{
+  width: 230px;
+  height: 40px;
+  background-color:#FF6666;
+  border: none;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  
+}
+
+
+#giftcard button:hover{
+  background-color: #FF9999;
+
+}
+
+#giftcard small{
+  cursor: pointer;
+  opacity: .7;
+}
+
+#giftcard small:hover{
+  opacity: 1;
+  
+}
+
+
+footer{
+
+  width: 100%;
+  height: auto;
+  background-color: white;
+
+}
+
+
+#content_container{
+  width: 1000px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content:space-around;
+ text-align: left;
+ margin: 0 auto;
+ margin-top: 40px;
+  
+}
+
+
+footer .content{
+
+  width: 230px;
+  height: auto;
+
+}
+
+footer .content span{
+  width: 40px;
+  height: 20px;
+  background-color: #006666;
+  color: white;
+  padding: 3px;
+  border-radius: 5px;
+  font-size: 12px;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+footer .content ul{
+  list-style: none;
+  
+  
+} 
+
+
+footer .content a{
+  color: gray;
+  font-weight: bold;
+}
+
+footer .content ul li:first-child{
+  font-weight: bold;
+  margin-bottom: 10px;
+}

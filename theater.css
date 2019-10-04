@@ -1,0 +1,894 @@
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+body{
+  
+  padding: 0px;
+  margin: 0px;
+  
+}
+
+
+
+/*-------------------------------------------------------------------------------------------------
+				 reset
+--------------------------------------------------------------------------------------------------*/
+
+
+
+header{
+
+  width:100%;
+  height:120px;
+  background-color:white;
+  border-bottom: 1px solid #CC0099;
+   line-height: 120px;
+}
+
+header h1{
+  display: inline-block;
+  width: auto;
+  color:  #CC0099;
+  font-size: 35px;
+  line-height: 120px;
+ 
+ 
+}
+
+header ul{
+  
+  list-style: none;
+  float: right;
+  
+  
+}
+
+header ul li{
+  width: 150px;
+  height: auto;
+  float: left;
+  margin-left: 30px;
+  border-left: 1px solid  #EEEEEE ;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+ 
+}
+
+header ul li:hover{
+  transition-duration: 1s;
+  opacity: .3;
+
+}
+
+
+header ul li:first-child{
+  background:url("http://freeiconbox.com/icon/256/34097.png")no-repeat;
+  background-size: 15%;
+  background-position: 9% 50%;
+  padding-left:30px;
+  
+}
+
+header ul li:nth-of-type(2){
+  background: url("https://png.pngtree.com/svg/20160224/92af424a9f.png")no-repeat;
+  background-size: 25%;
+  background-position: -2% 50%;
+  padding-left:30px;
+}
+
+
+header ul li:nth-of-type(3){
+  
+  background: url("http://freeiconbox.com/icon/256/37116.png")no-repeat;
+  background-size: 25%;
+  background-position: 15% 50%;
+  padding-left:30px;
+}
+
+header ul li:last-child{
+  
+  background-color: #CC0099;
+  box-shadow: 2px 2px -5px  #CC0066;
+  box-sizing: border-box;
+}
+
+
+
+header ul li:last-child:hover{
+  transition-duration: .6s;
+  background-color:#FF0099;
+  opacity: .7;
+
+}
+
+
+header ul li a{
+  
+  color: black;
+}
+
+header ul li a:link{
+    text-decoration: none;
+    color: black;
+}
+
+header span{
+  
+  color: white;
+}
+
+
+
+
+#top{
+  width:100%;
+  height:400px;
+
+
+}
+
+
+
+.slider{
+    width: 70vw;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+ 
+.slider__content{
+    min-width: 100%;
+    animation: sliderAnime 8s ease-in-out infinite;
+}
+
+.slider__content img{
+     width:100%;
+  height:600px;
+}
+
+  
+@keyframes sliderAnime{
+    0%{
+ 
+    }
+    16.6%{
+        transform: translateX(0);
+    }
+    33.3%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    66.6%{
+        transform: translateX(-200%);
+    }
+    83.2%{
+        transform: translateX(-200%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+} 
+ 
+.slider__img{
+    max-width: 100%;
+    min-width: 100%;
+}
+
+
+#main{
+    margin-top: 40px
+    
+  
+}
+
+#news{
+   width: 70%;
+   height: 900px;
+   padding-top: 220px;
+   margin: 20px auto;
+  
+}
+
+
+#news img{
+  width: 30%;
+  height: 30%
+}
+
+#news h2{
+  
+  float: left;
+  display: inline-block;
+  width: auto;
+  margin-right: 120px;
+}
+
+
+
+
+#news ul {
+  float: left;
+  width: 700px;
+  text-decoration: none;
+  list-style: none;
+
+  
+}
+
+
+#news section{
+  background-color: green;
+  width: auto;
+  
+}
+
+
+
+
+#news li{
+  float: left;
+  border-bottom: 1px dotted black;
+  padding-bottom: 20px;
+  padding-top: 20px;
+
+  
+}
+
+#news li:first-child{
+    padding-top: 0px;
+  
+}
+
+#news li:last-child{
+  
+   border-bottom: none;
+}
+
+#news img{
+  float: left;
+  border: 1px solid #eee;
+  margin-right: 20px;
+
+}
+
+
+ .normalbtn {
+  
+  width: 220px;
+  height: 40px;
+  background-color: #AAAAAA ;
+  border-style: none;
+  margin-left: 40%;
+  color: white;
+
+  
+}
+
+
+#news button:hover{
+  background-color:#CC0099;
+  transition-duration: .6s;
+
+  
+}
+
+
+#news pre{
+line-height: 40px;
+color: white;
+
+  
+}
+
+
+.lion_bk{
+  width: 100%;
+  height: 500px;
+  padding-top: 10px;
+  
+ background: url("https://i.gzn.jp/img/2019/04/11/lion-king-official-trailer/00.jpg")no-repeat center;
+background-size: cover;
+background-attachment: fixed;
+
+}
+
+
+.wheater_bk{
+  
+  width: 100%;
+  height: 500px;
+  padding-top: 10px;
+ background: url("https://i.gzn.jp/img/2019/04/10/tenkinoko-shinkaimakoto/s29.jpg")no-repeat center;
+background-size: cover;
+background-attachment: fixed;
+
+}
+
+
+.aladdin_bk{
+  width: 100%;
+  height: 500px;
+  padding-top: 10px;
+  
+background: url("https://www.voiceyougaku.com/wp-content/uploads/2019/05/zayn-zhavia-a-whole-new-world-min.jpg")no-repeat center;
+background-size: cover;
+background-attachment: fixed;
+
+}
+
+
+
+
+
+
+.introduce{
+  
+  width: 100%;
+  height: 500px;
+  padding-top: 10px;
+}
+
+
+.introduce dl{
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.introduce span{
+  width: 40px;
+  height: 20px;
+  padding: 4px 8px;
+  background-color:#CC0099;
+  color: white;
+}
+
+.introduce dt{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px dotted black;
+  padding-bottom: 25px;
+}
+
+.introduce h3{
+  font-weight: bold;
+}
+
+.introduce dd{
+  
+  width: 450px;
+
+}
+
+
+
+.introduce button{
+  
+  width: 35%;
+  height: 40px;
+ border-style: none;
+ background-color:#AAAAAA;
+ color: white;
+ font-weight: bold;
+}
+
+
+.introduce button:first-child{
+  margin-left: 215px;
+  
+}
+
+.introduce button:last-child{
+  
+ background-color:#000066;
+}
+
+
+
+.introduce button:hover{
+  
+  background-color:#CC0099;
+  transition-duration: .6s;
+  
+}
+
+
+#movies{
+  
+  width: 100%;
+  height: 600px;
+  background-color: #eee;
+  
+}
+
+
+#movies span{
+  font-size: 20px;
+  font-weight: bold;
+  color: #CC0099;
+}
+
+#movies h1{
+  text-align: center;
+  padding-top: 100px;
+  
+}
+
+#movies ul{
+   margin-left: 43%;
+   margin-top: 30px;
+}
+#movies li:first-child{
+    border-bottom: 5px solid #cc0099;
+}
+
+#movies  li{
+  list-style: none;
+  text-align: center;
+  width: 100px;
+  height: 30px;
+  display: inline-block;
+  list-style: none;
+  float: left;
+  margin-right: 10px;
+  border-bottom: 5px solid gray;
+  cursor: pointer;
+}
+
+
+#movies a:link{
+  text-decoration: none;
+  
+}
+
+#movies section{
+  position: absolute;
+  float: left;
+  margin-top: 40px;
+  margin-left: 21%;
+}
+
+
+
+
+#movies #future{
+    position: relative;
+    display: none;
+}
+
+
+
+#movies img{
+  margin-left: 10px;
+
+}
+
+#movies img:hover{
+  opacity: .4;
+  transition-duration: 1s;
+}
+
+#ranking{
+  
+  width: 100%;
+  height: 700px;
+  background-color: white;
+}
+
+
+#ranking h1{
+  text-align: center;
+  padding-top: 100px;
+  
+}
+
+#ranking  span{
+  font-size: 20px;
+  font-weight: bold;
+  color: #CC0099;
+}
+
+
+#ranking section{
+  width: 510px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+#ranking .rkbox{
+  float: left;
+  margin-right: 10px;
+  width: 160px;
+  height: 160px;
+ 
+ 
+}
+
+#ranking .rkbox span{
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 50px;
+  background-color:#CC9933; 
+  color: white;
+  font-size:24px;
+  text-align: center;
+  padding-top: 10px;
+
+}
+
+#ranking #rk1{
+  background: url("https://www.humax-cinema.co.jp/ikebukuro/wp-content/uploads/2019/05/1907_tennkinoko_icon-300x204.jpg")no-repeat bottom ;
+  background-size: contain;
+  
+}
+
+
+#ranking #rk2{
+  background: url("https://www.humax-cinema.co.jp/ikebukuro/wp-content/uploads/2019/06/1908_lionking_eye-1-300x204.png")no-repeat bottom;
+  background-size:contain;
+}
+
+
+#ranking #rk3{
+  
+  background: url("https://www.humax-cinema.co.jp/ikebukuro/wp-content/uploads/2019/06/1907_pokemon-movie_1-300x204.jpg")no-repeat bottom;
+  background-size: contain;
+}
+
+
+.comment{
+  
+ position: relative;
+  width: 800px;
+  background-color: #FFD5EC;
+  height:160px;
+ margin-top: 250px;
+ margin-left: 400px;
+ padding:15px 10px;
+  
+}
+
+
+.comment::before{
+  
+ content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  left: 45%;
+  top: -12px;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid #FFD5EC;
+  border-left: 15px solid transparent;
+
+}
+
+
+#info{
+  width: 100%;
+  height: 700px;
+  background-color: #eee;
+  padding-top: 50px;  
+}
+
+
+#info span{
+  font-size: 20px;
+  font-weight: bold;
+  color: #CC0099;
+}
+
+#info h1{
+  text-align: center;
+  padding-top: 100px;
+  
+}
+
+
+#info .infobox{
+  float: left;
+  margin-right: 30px;
+  height: 270px;
+  width: 250px;
+  border-bottom: 1px solid black;
+}
+
+#info img{
+  width: 250px;
+}
+
+#info span{
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+
+
+#info p{
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+#boxcontainer{
+  margin-top: 30px;
+  margin-left: 15%;
+}
+
+
+
+#info pre{
+line-height: 40px;
+color: white;
+
+}
+
+
+#info button{
+  
+  margin-left: 32%;
+  margin-top: 100px;
+}
+
+
+
+#info button:hover{
+  background-color:#CC0099;
+  transition-duration: .6s;
+
+  
+}
+
+#service{
+  width: 100%;
+  height: 500px;
+  background-color: white;
+  
+}
+
+
+#service h2{
+
+  float: left;
+  margin-left: 20%;
+  margin-top: 40px;
+}
+
+#service ul{
+  
+  width: 750px;
+  height: 250px;
+  float: left;
+  list-style: none;
+  margin-left: 5%;
+  margin-top: 40px;
+}
+
+
+#service ul li{
+  cursor: pointer;
+  float: left;
+  display: block;
+  width:375px;
+  height: 120px;
+  background-color: white;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 120px;
+  font-weight: bold;
+  
+}
+
+#service ul li:first-child{
+  background:url("http://freeiconbox.com/icon/256/34097.png")no-repeat;
+  background-size: 10%;
+  background-position: 9% 50%;
+  padding-left:30px;
+  border-bottom: none;
+  border-right: none;
+  
+}
+
+
+#service ul li:nth-of-type(2){
+  background: url("https://png.pngtree.com/svg/20160224/92af424a9f.png")no-repeat;
+  background-size: 15%;
+  background-position: 15% 50%;
+  padding-left:30px;
+  border-bottom: none;
+ 
+}
+
+
+
+
+#service ul li:nth-of-type(3){
+  
+  background: url("http://freeiconbox.com/icon/256/37116.png")no-repeat;
+  background-size: 15%;
+  background-position: 15% 50%;
+  padding-left:30px;
+  border-right: none;
+}
+
+
+#service ul li:nth-of-type(4){
+  
+  background: url("https://freeiconshop.com/wp-content/uploads/edd/handshake-outline.png")no-repeat;
+  background-size: 15%;
+  background-position: 10% 50%;
+  padding-left:30px;
+}
+
+#service ul li:hover{
+  color: white;  
+  background-color:#CC0099;
+  transition-duration: .6s;
+}
+
+
+
+#service button{
+  margin-top: 20px;
+  line-height: 40px;
+  margin-left: 43%;
+  
+}
+
+#service pre{
+  color: white;  
+}
+
+#service button:hover{
+  background-color:#CC0099;
+  transition-duration: .6s;
+
+  
+}
+
+
+#toTop{
+  width: 100%;
+  height: 45px;
+  background-color:#CC0099;
+  text-align: center;
+  line-height: 45px;
+  color: white;
+  text-decoration: none;
+}
+
+
+footer a:link{
+  text-decoration: none;
+}
+
+
+
+footer{
+ 
+ 
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  text-align: center;
+  font-size: 12px;
+  line-height: 100px;
+}
+/*--------------------------------------------------
+                          clear
+  -------------------------------------------------*/
+  
+  .clearbox{
+    clear: both;
+  }
+  

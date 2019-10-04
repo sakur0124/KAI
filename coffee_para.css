@@ -1,0 +1,98 @@
+
+.jumbotron{
+  
+  background: url("https://image.freepik.com/free-photo/_1203-1631.jpg")no-repeat right;
+  background-size: cover;
+  height: 300px;
+
+}
+
+
+
+
+
+
+body,html {
+    height: 100%;
+    margin: 0 auto;
+    font-family: Quicksand;
+    letter-spacing:2px;
+}
+/*ここまでパララックスとは関係のない設定*/
+
+/*固定された画像*/
+.parallax {
+    position: relative;
+    height: 100%; 
+    background: url("https://www.pakutaso.com/shared/img/thumb/N845_mokumetex.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.parallax p{
+  
+  font-size: 80px;
+  text-align: center;
+
+
+}
+
+
+
+.bk2{
+  
+  background: url("https://image.freepik.com/free-photo/_1150-7051.jpg") no-repeat center;
+  background-size: cover;
+}
+
+/*スクロールするボックス*/
+.contents {
+
+    position: relative;
+    height:400px;
+    font-size:60px;
+    background: url("https://image.freepik.com/free-photo/_23-2148161151.jpg")no-repeat right;
+    background-size: contain;
+    text-align: center;  
+  
+    }
+  
+
+.imgLeft{
+   background: url("https://image.freepik.com/free-photo/_1150-10429.jpg")no-repeat left;
+}
+
+
+.imgLeft p{
+   text-align: right;
+   color: white;
+   text-shadow: 2px 2px 2px black;
+}
+  
+.contents   li{
+  list-style: none;
+  font-size: 18px;
+  margin-top: 10px
+  margin: 0; !important;
+  list-style-position: inside;
+  
+}    
+    
+.contents1 {
+    position: relative;
+    z-index: 1;
+    height:200px;
+    background: #555;
+    font-size:60px;
+    background: pink;
+    padding: 100px 20px;
+    text-align :center;
+    }    
+    
+  .rabbit{
+    float: right;
+  }  
+  

@@ -1,0 +1,773 @@
+http://runstant.com/kai2019/projects/542478cf#content-editor-view
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*============================================================================
+
+リセット
+==============================================================================*/
+
+
+
+
+body{
+width:100%;
+
+}
+
+
+
+header{
+  height: 20%;
+  width: 100%;
+  background-color:#EEEEEE;
+  z-index: 99;
+  position: fixed;
+  
+  
+}
+
+
+header h1{
+  display: inline-block;
+  font-size: 20px;
+  color: navy;
+  font-weight: bold;
+  margin-top: 3%;
+  width: auto;
+  float: left;
+  
+}
+
+header span{
+  color: orange;
+}
+
+nav{
+  float: right;
+  width: auto;
+  margin-top: 3%;
+  margin-right: 2%;
+}
+nav li{
+  float: left;
+  margin-left: 45px;
+}
+
+
+header nav li:last-child span {
+  background: url('https://www.industryforum.co.uk/wp-content/uploads/sites/6/2017/04/person.png') no-repeat left;
+  background-size: 23px;
+  padding-left: 30px;
+
+  
+}
+
+#Top{
+
+  height:700px;
+  width:100%;
+  background:url("https://image.freepik.com/free-photo/_1421-64.jpg")no-repeat;
+  background-size: cover;
+  
+}
+
+.gray{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,.4);
+  position:relative;
+  
+
+
+}
+
+#Top section{
+  color:white;
+  font-size: 20px;
+  margin-left: 40%;
+  position:absolute;
+  margin-top:30%; 
+  z-index:50;
+
+}
+
+
+
+#Top p:first-child{
+  font-size: 60px;
+  font-weight: bold;
+}
+
+#Top p:nth-child(2){
+  margin-left: 10%;
+}
+
+#Top button{
+   margin-left: 20%;
+   margin-top: 7%;
+   background-color:#FF773E;
+   border: none;
+   border-radius: 50px;
+} 
+
+#Top button:hover{
+  background-color: #CC6633;
+}
+
+
+#Introduce {
+
+  width: 100%;
+  height:150%;
+  background-color:green;
+ 
+}
+
+
+#Introduce h1{
+  margin-bottom: 5%;
+  font-weight: bold;
+  color: navy;
+}
+
+#Introduce h2{
+  margin-bottom: 5%;
+  font-weight: bold;
+    color: navy;
+
+}
+
+#Introduce article{
+  
+  height: 150%;
+  width: 45%;
+  float: left;
+  padding-top: 5%;
+  padding-left: 15%;
+
+  
+}
+
+
+#Introduce section{
+  
+  width: 50%;
+  margin-bottom: 7%;
+  font-size: 20px;
+
+}
+
+
+#Introduce img{
+
+  float: right;
+  margin-top: 5%;
+  width: 50%;
+}
+
+
+#Introduce  button{
+  
+   background-color:#FF773E;
+   border: none;
+   border-radius: 25px;
+   padding: 10px 20px;
+   font-size: 18px;
+
+}
+
+#Introduce  button:hover{
+  
+     background-color:#CC6633;
+  
+}
+
+
+
+#Service{
+  
+  height:900px;
+  width: 100%;
+  background-color: #EEEEEE;
+  
+}
+
+
+#Service h1{
+  
+  font-size: 60px;
+  color: navy;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 5%;
+}
+
+#allService{
+
+  width: 1080px;
+  height:600px;
+  margin: 0 auto;
+  padding-top: 5%;
+
+
+}
+
+
+.Service_box{
+  height: 250px;
+  width:  250px;
+  background-color:white;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 2px rgba(0,0,0,.2);
+}
+
+
+.Service_box p{
+  margin-top: 25%;
+  text-align: center;
+
+}
+
+.Service_box img{
+  height: 40%;
+  width:40%;
+}
+
+.Service_box:nth-child(8){
+  margin-right:0;
+}
+
+
+
+#Service  button{
+  
+   background-color:#FF773E;
+   border: none;
+   border-radius: 25px;
+   padding: 10px 22px;
+   font-size: 18px;
+   margin-top: 5%;
+   margin-left: 45%;
+   
+
+}
+
+
+#Service  button:hover{
+  
+     background-color:#CC6633;
+  
+}
+
+
+#Booking{
+  height: 80%;
+  width: 90%;
+  background:url("http://www.photolibrary.jp/mhd4/img204/450-20110514173802112496.jpg")no-repeat center;
+  margin: 0 auto;
+  background-size: cover;
+}
+
+
+#Booking p{
+
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10%;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.2)
+}
+
+
+#Booking  button{
+  
+   background-color:#FF773E;
+   border: none;
+   border-radius: 25px;
+   font-size: 18px;
+   margin-left: 45%;
+   margin-top: 3%;
+   
+
+}
+
+#Booking  button:hover{
+  
+     background-color:#CC6633;
+  
+}
+
+
+
+#Contact{
+  
+  height: 900px;
+  width: 100%;
+  background-color: white;
+}
+
+
+#Contact article{
+  border-bottom: 1px solid black;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  width: 70%;
+
+}
+
+
+#Contact h1{
+  font-weight: bold;
+  color: navy;
+}
+
+#Contact h2{
+  color: black;
+}
+
+
+#Contact section{
+  margin-top: 5%;
+}
+
+
+#Contact  button{
+  
+   background-color:#FF773E;
+   border: none;
+   border-radius: 25px;
+   font-size: 18px;
+   margin-left: 45%;
+   margin-top: 10%;
+   
+
+}
+
+#Contact  button:hover{
+  
+     background-color:#CC6633;
+  
+}
+
+
+
+#Contact input{
+  border: none;
+  border-bottom: 1px solid #EEEEEE;
+  padding-bottom: 1%;
+  margin-right:1%;
+  padding-top: 2%;
+  
+  
+}
+
+#Contact input:hover{
+   border-bottom: 1px solid blue;
+
+}
+
+
+
+#Contact input:nth-of-type(4){
+
+    padding-bottom: 10%;
+ 
+  
+}
+
+::-webkit-input-placeholder {
+  color:#6495ED;
+}
+::-moz-placeholder {
+    color: #6495ED;
+}
+:-ms-input-placeholder {
+  color: #6495ED;
+}
+
+
+#ContactWrapper{
+  
+  width: 100%;
+  height: auto;
+  margin-left:22%;
+
+}
+
+
+#ContactWrapper section{
+  float: left;
+  margin-right:20px;
+ 
+}
+
+
+
+
+footer{
+  
+  height: 30px;
+  width: 100%;
+  background-color: navy;
+  text-align: center;
+  color: white;
+  position:absolute;
+  margin-bottom:0;
+}
+
+
+
+.animation{
+    opacity: 0; //不透明度0%
+    -webkit-transform: translate3d(0, 100%, 0); //縦方向の位置を100%下げる
+    transform: translate3d(0, 100%, 0);
+    -webkit-transition: all 2s ease; //1秒間かけて変化させる
+    transition: all 1s ease;
+    
+}
+
+.animation.active{
+    opacity: 1; //不透明度100%
+    -webkit-transform: translate3d(0, 0, 0); // 縦方向の位置を戻す
+    transform: translate3d(0, 0, 0);
+}
+
+
+
+
+
+
+
+.clearbox{
+ clear:both;
+ 
+}
+
+
+
+
+/*-----------------------------------------------------------
+
+		レスポンシブ max-width:479px
+
+------------------------------------------------------------*/
+
+
+
+@media screen and ( max-width:479px ){
+
+
+
+
+  header{
+  height: 50px;
+  width: 100%;
+  background-color:#EEEEEE
+  z-index: 99;
+  position: absolute;
+  font-size:15px;
+  
+  
+}
+
+
+
+nav{
+  display:none;
+
+}
+
+
+Top{
+ 
+ background-size:contain;
+ text-align:center
+}
+
+
+
+#Top section{
+
+  margin-top:50%; 
+  margin-left:20%;
+
+
+}
+
+
+#Top p:first-child{
+  font-size: 30px;
+
+}
+
+#Top p:nth-child(2){
+  margin-left: 0%;
+}
+
+ 
+#Top button{
+   margin-left: 10%;
+ 
+} 
+
+
+
+
+  #Introduce article{
+
+    width:100%;
+    height:auto;
+    
+
+   }
+
+
+ #Introduce section{
+
+    width:80%;
+    height:auto;
+}
+
+
+  #Introduce img{
+
+    width:100%;
+    height:auto;
+  }
+
+
+
+#Service h1{
+ font-size: 40px;
+
+
+}
+
+#allService{
+
+  width: 100%;
+  margin-left:8%;
+
+
+
+}
+
+
+.Service_box{
+  width:40%;
+  height:auto;
+}
+
+
+#Service  button{
+
+ margin-left:35%;
+
+
+}
+
+#Booking p{
+
+  font-size:30px;
+ }
+
+
+#Booking button{
+  
+  margin-left: 32%; 
+
+}
+
+
+
+#Contact h1{
+
+ font-size:30px;
+
+}
+
+
+
+#Contact h2{
+
+ font-size:30px;
+ margin-bottom:40px;
+}
+
+#Contact  button{
+  
+  margin-left: 33%;
+  margin-bottom:10%;
+
+}
+
+
+
+#ContactWrapper{
+ width:100%;
+ margin-left:20%;
+
+}
+
+
+#ContactWrapper section{
+ width:100%;
+ height:auto;
+ margin-bottom:10%;
+ 
+}
+
+
+#ContactWrapper input{
+
+ width:200px;
+
+}
+
+
+footer{
+  
+ display:none;
+}
+
+
+
+}
+
+
+
+/*-----------------------------------------------------------
+
+		レスポンシブ max-width:479px
+
+------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------------
+
+		レスポンシブ max-width:600px
+
+------------------------------------------------------------*/
+
+
+@media screen and ( max-width:600px ){
+
+
+
+
+
+
+
+
+}

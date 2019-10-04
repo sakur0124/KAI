@@ -1,0 +1,364 @@
+http://runstant.com/kai2019/projects/542478cf#content-editor-view
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*============================================================================
+
+ƒŠƒZƒbƒg
+==============================================================================*/
+
+
+
+
+header{
+  height: 100px;
+  width: 100%;
+  background-color: pink;
+  padding-top:4px;
+
+}
+
+
+
+header h1{
+  margin-bottom: 1px;
+  font-weight: bold;
+}
+
+
+nav{
+  float: right;
+  width: auto;
+  height: auto;
+  line-height: 50px;
+ 
+}
+
+nav li{
+  float: left;
+  margin-right: 20px;
+  cursor: pointer; 
+}
+
+nav li:hover{
+  color: white;
+  text-shadow: 1px 2px 2px rgba(0,0,0,.4);
+  transition: 0.3s ease-in-out;
+}
+
+
+
+
+
+#left_text{
+  width: auto;
+  height: auto;
+  float: left;
+  margin-left: 20px;
+
+}
+
+
+
+
+#top{
+  
+  width: 100%;
+  height: 600px;
+  background:url("http://aea365.org/blog/wp-content/uploads/2016/02/cheesy-stock-photo-1024x683.jpg");
+  background-size: cover;
+}
+
+
+#top h1{
+  padding-top: 5%;
+  font-size: 40px;
+  color: white;
+  text-shadow:  2px 2px rgba(0,0,0,.4);
+  margin-left: 20px;
+}
+
+ .btn-outline-primary {
+  background: none!important;
+  font-weight: bold !important;
+  padding: 8px 40px !important;
+  margin-left: 20px;
+   
+ }
+
+
+.btn-outline-primary:hover{
+  color: red !important;
+  border-color:red !important;
+}
+
+
+
+#center{
+  width: 100%;
+  height: 300px;
+
+}
+
+
+
+#center ul{
+  height: auto;
+  width: 800px;
+  margin: 140px auto;
+  
+}
+
+#center li{
+    list-style: none;
+  float: left;
+  padding-right: 70px;
+  font-weight: bold;
+
+}
+
+
+#center li:first-child{
+    padding-left: 50px;
+}
+
+#center span{
+
+  margin-left: 20px;
+   
+}
+
+
+
+#staff{
+  
+  height: 700px;
+  width: 100%;
+  background-color: pink;
+}
+
+
+#staff h1{
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.person_wrapper{
+  width: 880px;
+  height: 400px;
+  margin: 0 auto;
+  
+  
+}
+
+.person_img{
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  float: left;
+  margin-right: 20px;
+  margin-top: 30px;
+  background: url("https://free-illustration.com/material/036-illustration-free.jpg") center;
+  background-size: contain;
+}
+
+
+.intro{
+  width: 200px;
+  height: 300px;
+  background: none;
+  border: 2px solid black;
+  
+}
+
+#contact{
+  width: 100%;
+  height: 700px;
+  background-color: rgba(0,0,0,.3);
+  
+}
+
+#mail{
+  background: url("https://sozaikoujou.com/wordpress/wp-content/uploads/2015/04/th_business_icon_ca_006.png")no-repeat left;
+  background-size: contain;
+  padding-left: 30px;
+}
+
+#phone{
+  background: url("https://sozaikoujou.com/wordpress/wp-content/uploads/2015/04/th_business_icon_ca_009.png") no-repeat left;
+  background-size: contain;
+  padding-left: 30px;
+
+}
+
+#contact_wrapper{
+  width: 900px;
+  height: 400px;
+  margin: 0 auto;
+  padding-top: 20px;
+  
+}
+
+#contact_left{
+  float: left;
+}
+
+
+.contact_right{
+  width: 500px;
+  height: 200px;
+  float: right;
+  margin-top: 30px;
+  border-bottom: 4px solid white;
+  font-weight:bold;
+ 
+}
+
+
+.contact_right:nth-of-type(3n){
+  border: none;
+
+}
+
+
+
+
+
+
+
+.text_container{
+ 
+  width: auto;
+  height: auto;
+  float: left;
+  margin-right: 20px;
+
+
+ 
+}
+
+
+
+input [type="text"]{
+  margin-bottom: 5px;
+
+}
+
+textarea{
+  float:left;
+  
+
+}
+
+footer{
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  text-align: center;
+  line-height: 40px;
+}
+.clearbox{
+  clear: both;
+}

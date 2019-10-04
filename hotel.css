@@ -1,0 +1,247 @@
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*============================================================================
+
+���Z�b�g
+==============================================================================*/
+
+body,html{
+  height: 100%;
+}
+
+#page01{
+  height: 100%;
+  background: url("https://www.pakutaso.com/shared/img/thumb/YAMA_DSC2451_TP_V.jpg") no-repeat center;  
+  background-size: cover;
+  background-attachment: fixed;
+
+  
+}
+
+
+nav{
+ display:block;  
+ width: 490px;
+ height: auto;
+ margin:0 auto;
+ text-align: center;
+ padding-top: 100px;
+ cursor: pointer;
+ 
+}
+
+
+
+nav li{
+
+ float: left;
+margin-right: 40px;  
+padding-top: 10px;
+border-top: 4px solid rgba(266,266,266,0);
+color: white;
+text-shadow: 2px 2px 4px rgba(0,0,0,.4);
+  
+}
+
+nav li:hover{
+  border-top: 4px solid white;
+}
+
+
+
+ul li:last-child{
+ margin-right: 0;
+  
+}
+
+ul li:first-child{
+border-top: 4px solid white;
+  
+}
+
+
+.searchBox{
+
+  width: 100%;
+  height: 80px;
+  background-color: rgba(0,0,0,.1);
+}
+
+
+.content{
+  text-align: center;
+  padding-top: 30px;
+
+}
+
+button{
+  margin-left: 20px;
+  margin-bottom: 5px;
+
+}
+
+#page02{
+background: url("https://www.pakutaso.com/shared/img/thumb/HOTEL86_hirobirowashitu20150124152404.jpg")no-repeat center;
+background-size: cover;
+background-attachment: fixed;
+height: 100%;
+
+  
+}
+
+
+ .page {
+  color: white;
+  font-size: 108px;
+  padding-top: 230px;
+  text-align:center;
+  text-shadow: 4px 4px 4px rgba(0,0,0,.4); 
+
+  
+}
+  
+  
+#food {
+  
+ width: 100%;
+ height: 100%;
+ background: url("https://img.rakudaclub.com/gallery/photo/82217/Y82217_50.jpg") no-repeat left;
+ background-size:60% auto ;
+
+  
+}
+
+
+#food p{
+  font-size: 100px;
+  text-align: right;
+  margin-right: 20px;
+
+  
+}  
+
+
+#page03{
+  height: 100%;
+  background: url("http://blogimg.goo.ne.jp/user_image/6a/02/9dcc36cc8f097ed482b9037e803803f5.jpg")no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+#page04{
+  height: 100%;
+  background: url("http://sozai.yutorilife.com/s1366768/photo/umi03.jpg")no-repeat center;
+  background-size: cover;
+  
+}
+
+
+footer{
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+

@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+
+body{
+  background: url(http://www.netyasun.com/home/bk-img/b118.jpg)
+
+}
+header{
+
+  background-color: #A0522D;
+  height: 200px;
+  width: 960px;
+}
+
+ul{
+  list-style: none;
+  float: right; 
+
+}
+
+
+#menu{
+  height: 200px;
+  width: 500px;
+  margin: 0 auto;
+
+
+}
+
+#menu ul{
+  width: 420px;
+  height: auto;
+  margin: 80px auto;
+
+
+
+}
+
+#menu li a:hover{
+  border-bottom: 2px solid yellow;
+
+
+}
+
+
+
+#menu a{
+ text-decoration: none;
+ color: #fff;
+ float: left;
+ margin-left: 30px;
+ font-family: 'HG行書体';
+ font-weight: bold;
+ font-size: 20px;
+
+
+}
+
+
+
+#wrapper{
+  width: 960px;
+  height: 1000px;
+  margin: 0 auto;
+}
+
+#main{
+  background-color: #fff;
+  height:auto;
+  width: 960px;
+}
+
+
+.image img{
+
+  height: 210px;
+  width: 350px;
+  margin-left: 10px;
+  box-shadow: 6px 5px 2px gray;
+}
+
+#food2 img{
+  margin-right: 10px;
+  margin-left: 0;
+  box-shadow: -6px 5px 2px gray;
+
+}
+
+
+.image img:hover{
+  opacity: .8;
+}
+
+
+dl{
+
+  margin-top: 0px;
+
+}
+
+dt{
+  border-left: 10px solid red;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 40px;
+  padding-left: 8px;
+  font-family: 'HG行書体';
+}
+
+dd{
+
+  margin-top: 20px;
+
+
+}
+
+#food1{
+  float: left;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+#food1 dl{
+  width: 600px;
+  float: right;
+
+
+}
+
+#food2{
+  float:right;
+  margin-bottom: 40px;
+}
+
+#food2 dl{
+  float: left;
+  width: 600px;
+}
+
+#food3{
+  float: left;
+  margin-bottom: 70px;
+}
+
+#food3 dl{
+  float: right;
+  width: 600px;
+}
+
+footer{
+  background-color: #A0522D;
+  height: 40px;
+  width: 100%;
+
+}
+
+
+.clearbox{
+  clear: both;
+}

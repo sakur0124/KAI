@@ -1,0 +1,254 @@
+﻿<!--
+参考：https://kokilog.jp/jquery-fadein01/
+参考：https://imasashi.net/element-fadein.html
+
+-->
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script  src="http://code.jquery.com/jquery-3.4.1.js"  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="  crossorigin="anonymous"></script> 
+   
+   <style>${style}</style>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+   <script  src="http://code.jquery.com/jquery-3.4.1.js"  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="  crossorigin="anonymous"></script>
+ 
+
+<link rel="stylesheet" href="clinic.css" type="text/css">
+
+
+<script>
+
+ 
+$(window).scroll(function (){
+	$(".animation").each(function(){
+	  var position = $(this).offset().top; //ページの一番上から要素までの距離を取得
+	  var scroll = $(window).scrollTop(); //スクロールの位置を取得
+	  var windowHeight = $(window).height(); //ウインドウの高さを取得
+	  if (scroll > position - windowHeight){ //スクロール位置が要素の位置を過ぎたとき
+	    $(this).addClass('active'); //クラス「active」を与える
+	  }
+	});
+});
+
+
+</script>
+
+  </head>
+  
+  <body>
+   
+   <header>
+     <h1>Tom Dixon MD <span>| Family Docter</span></h1>
+     <nav>
+       <ul>
+         <li>Meet Dr.Dixon</li>
+         <li>Service</li>
+         <li>Patient info</li> 
+         <li>Forum</li>
+         <li>Members</li> 
+         <li>contact</li>
+         <li><span></span>Log In</li>
+       </ul>
+     </nav>
+   </header>
+  
+
+  <div id="Top">
+  
+      <section class="animation">  
+        <p>Tom Dixon MD</p>
+        <p>Helping to Build Healthy Commounity</p>
+        <button type="button" class="btn btn-primary btn-lg ">Booking an appointment</button>
+      </section>  
+     
+  <div class="gray"></div>
+  </div>
+
+ 
+  
+  
+  <div id="Introduce">
+        <article>
+          <h1>About Tom Dixon MD</h1>
+          
+          <section class="animation">I'm a paragraph. Click here to add your own text and edit me. It’s easy. 
+          Just click “Edit Text” or double click me to add your own content and make changes to the font. 
+          Feel free to drag and drop me anywhere you like on your page. 
+          I’m a great place for you to tell a story and let your users know a little more about you.
+         </section>
+        
+         <h2>Education</h2>
+         
+         <section class="animation">
+           Medical School - University of Dulton Health Science Center.<br>
+          Residency in Family Medicine - University of Dulton Health Science Center. 
+         </section>
+         <button type="button" class="btn btn-primary  btn-lg ">ReadMore</button>
+        
+        </article>
+	
+        <img src="http://cdn.amanaimages.com/cen3tzG4fTr7Gtw1PoeRer/50100253433.jpg">
+    
+ </div> 
+       
+  <div class="clearbox"></div>
+
+
+  <div id="Service">
+    
+      <h1>How Can I Help You</h1>
+      <div id="allService" class="animation"> 
+         
+         <div class="Service_box">
+          <p> 
+          <img src="https://image.flaticon.com/icons/png/512/86/86956.png"><br>
+           Flu Shots</p> 
+         </div>  
+         
+         <div class="Service_box">
+          <p> 
+           <img src="https://image.flaticon.com/icons/png/512/83/83745.png"><br>
+           General Health</p>
+         </div>  
+         
+         <div class="Service_box">
+           <p> 
+           <img src="https://image.flaticon.com/icons/png/512/89/89850.png"><br> 
+           Prevention & Wellness</p>
+         </div>  
+         
+         <div class="Service_box">
+          <p> 
+          <img src="https://image.flaticon.com/icons/png/512/124/124985.png"><br>
+           Physical Exams</p> 
+         </div>  
+         
+         <div class="Service_box">
+          <p> 
+          <img src="https://image.freepik.com/free-icon/_318-1538.jpg"><br>
+         Home Visits</p> 
+         </div>  
+         
+         <div class="Service_box">
+          <p> 
+          <img src="https://image.flaticon.com/icons/png/512/88/88098.png"><br>
+           Family Planning</p>
+         </div>  
+         
+         <div class="Service_box">
+          <p> 
+          <img src="https://image.flaticon.com/icons/png/512/88/88083.png"><br>
+          Blood Work</p> 
+         </div>  
+         
+         <div class="Service_box">
+          <p> 
+          <img src="https://cdn2.iconfinder.com/data/icons/eldorado-navigation/40/baby_child-512.png"><br>
+          Pediatric Consultation</p>
+         </div>
+      </div> 
+      <button type="button" class="btn btn-primary  btn-lg  org">MoreServices</button>
+
+  </div>
+
+  <div id="Booking" class="animation">
+    
+      <p>Get a Free Flu Shot Today!</P>
+      <button type="button" class="btn btn-primary  btn-lg  org">Book a Flu Shot</button>
+         
+  </div>
+  
+  
+  <div id="Contact">
+    <article class="animation">
+      <h1>Insurance Policy</h1>
+      <h2>Nearly all major insurance plans accepted</h2>
+      <section>
+        I'm a paragraph. Click here to add your own text and edit me.<br>
+        It’s easy click “Edit Text” or double click me to add your own content and make changes to the font.
+
+      </section>
+    </article>
+    <button type="button" class="btn btn-primary  btn-lg  org">NewPatientForm</button>
+    
+    
+  <div id="ContactWrapper">
+    <section>
+      <h1>Contact</h1>
+      <form>
+        
+        <p>
+          <input type="text" placeholder="Your Name">
+          <input type="email" placeholder="Email"><br>
+          <input type="number" placeholder="Phone" size="46"><br>
+          <input type="textarea" placeholder="Type your message here..." size="46">
+          
+          
+          
+        </p>
+       
+      </form>
+      
+    </section>
+    
+    <section>
+      <h2>Opening Hours</h2>
+      <p>Monday-Friday: 9am to 7pm<br>
+
+        Saturday: 9am to 4pm<br>
+
+        Sunday: Closed
+      </p>
+      <p>
+        
+        500 Terry Francois Street, San Francisco, CA 94158<br>
+        
+        
+        123-456-7890<br>
+        
+        
+        123-456-7890<br>
+        
+        
+        info@mysite.com
+
+        
+      </p>
+    </section>
+  </div>  
+  
+  </div>
+
+
+  <footer>
+    <p>© 2023 by Dixon MD Family Doctor. Proudly created with Wix.com</p>
+  </footer>
+  
+  <script>
+
+    $("Contact input").on("click",function(){
+       $("input").css('border-bottom','1px solid #EEEEEE');
+        $(this).css('border-bottom',' 1px solid blue');
+
+});
+
+$("Contact input").mouseout(function(){
+  $("Contact input").off("click");
+  
+});
+
+
+
+
+
+
+  </script>  
+  </body>
+</html>
